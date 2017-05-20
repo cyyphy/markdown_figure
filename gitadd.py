@@ -33,7 +33,10 @@ if len(sys.argv)>1:
     
     print('文件引用地址：\n\t'+pathtocopy)
     print('Markdown 引用代码：\n\t'+codetopaste)
-    os.system('pause')
+
+    import time
+    #os.system('pause')
+    time.sleep(60)
 
 
 
